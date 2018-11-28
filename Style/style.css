@@ -1,0 +1,127 @@
+.adminBody{
+	background-image: url("../Images/school.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#enteteIndex{
+	font-family: cursive;
+	font-weight: bold;
+}
+
+.test1{
+	margin-top: 10px;
+}
+
+.foto{
+	/*border: 2px solid blue;*/
+}
+
+.backContainer{
+	background-color: rgb(220, 220, 220, 0.5);
+}
+
+#usrName{
+	margin-top: 20px;
+}
+
+#pwd{
+	top: -35px;
+}
+
+.connect_input_txt {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid grey;
+	margin-bottom: -100px;
+	top: 100%;
+}
+
+.connect_input{
+	position: relative;
+	margin-left: 20%;
+	margin-top: -70px;
+	font-size: 20px;
+	font-family: cursive;
+	color: white;
+}
+
+.board_back{
+	background-image: url("../Images/board.png");
+	/*border: 2px solid red;*/
+	background-repeat: no-repeat;
+	background-size: 112%;
+	background-position: center;
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 30%;
+}
+
+.nav-link{
+	color: white;
+}
+
+.active{
+	font-weight: bold;
+}
+
+.logoTeccart{
+	float: right;	
+}
+
+.contentLbl, .contentLogo{
+	float: right;
+}
+
+.enteteTeccart{
+	padding-left: 20px;
+	padding-top: 10px;
+	height: 80px;
+	border: 2px solid white;
+	text-align: right;
+	background-image: url("../Images/blackboard.jpg");
+}
+
+#lbl_entete{
+	float: right;
+	margin-top: 28px;
+	font-size: 20px;
+	font-family: cursive;
+	color: white;
+}
+
+.client_input_txt {
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid grey;
+}
+
+.lesMembres {
+	width: 300px;
+	border: solid 2px black;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#listeMembres{
+	padding: 5px 5px 5px 5px;
+}
+
+.tablebody{
+	margin-left: 15px;
+	padding-left: 15px;
+}
+
+.cart {
+	float: left;
+}
+
+.liensSec {
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+.liena{
+	width: 250px;
+}

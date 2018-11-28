@@ -1,0 +1,45 @@
+<div id="shopping-cart">
+        <div class="txt-heading">
+        
+        Panier d'achats 
+        </div>
+    <?php
+        if(isset($_SESSION["cart_item"])){
+        
+    ?>	 
+<table cellpadding="10" cellspacing="1">
+    <tbody>
+        <tr>
+            <th style="text-align:left;"><strong>Nom</strong></th>
+            <th style="text-align:left;"><strong>Code</strong></th>
+            <th style="text-align:right;"><strong>Quantité</strong  ></th>
+            <th style="text-align:right;"><strong>Prix</strong></th>
+            <th style="text-align:center;"><strong>Action</strong></th>
+            </tr>	
+    <?php		
+        foreach ($_SESSION["cart_item"] as $item){
+    ?>
+        <tr>
+        <td style="text-align:left;border-bottom:#F0F0F0 1px solid;"><strong><?php echo $item["name"]; ?></strong></td>
+        <td style="text-align:left;border-bottom:#F0F0F0 1px solid;"><?php echo "code"; ?></td>
+        <td style="text-align:right;border-bottom:#F0F0F0 1px solid;"><?php echo "quantity"; ?></td>
+        <td style="text-align:right;border-bottom:#F0F0F0 1px solid;"><?php echo "price"; ?></td>
+        <td style="text-align:center;border-bottom:#F0F0F0 1px solid;">
+            
+     </td>
+        </tr>
+        <?php
+        
+		}
+		?>
+
+        <tr>
+        <td colspan="5" align=right></td>
+        </tr>
+    </tbody>
+</table>		
+  <?php
+}
+?>
+</div>
+
